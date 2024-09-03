@@ -1,0 +1,71 @@
+object Form1: TForm1
+  Left = 839
+  Height = 479
+  Top = 252
+  Width = 693
+  Caption = 'Form1'
+  ClientHeight = 479
+  ClientWidth = 693
+  LCLVersion = '3.2.0.0'
+  object Memo1: TMemo
+    Left = 88
+    Height = 235
+    Top = 8
+    Width = 413
+    Lines.Strings = (
+      'f=((x+1)/(x-1))^x+18*x*y^2'
+    )
+    TabOrder = 0
+    OnChange = Memo1Change
+  end
+  object Edit1: TEdit
+    Left = 200
+    Height = 23
+    Top = 304
+    Width = 80
+    TabOrder = 1
+    OnChange = Edit1Change
+  end
+  object Button1: TButton
+    Left = 264
+    Height = 25
+    Top = 416
+    Width = 75
+    Caption = 'Выход'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Label1: TLabel
+    Left = 88
+    Height = 15
+    Top = 304
+    Width = 45
+    Caption = 'Число Y'
+    OnClick = Label1Click
+  end
+  object Button2: TButton
+    Left = 88
+    Height = 25
+    Top = 416
+    Width = 75
+    Caption = 'Результат'
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+  object Edit3: TEdit
+    Left = 200
+    Height = 23
+    Top = 264
+    Width = 80
+    TabOrder = 4
+    OnChange = Edit3Change
+  end
+  object Label3: TLabel
+    Left = 88
+    Height = 15
+    Top = 264
+    Width = 45
+    Caption = 'Число X'
+    OnClick = Label3Click
+  end
+end

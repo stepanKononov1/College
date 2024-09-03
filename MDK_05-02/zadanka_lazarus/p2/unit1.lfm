@@ -1,0 +1,57 @@
+object Form1: TForm1
+  Left = 728
+  Height = 473
+  Top = 276
+  Width = 645
+  Caption = 'Form1'
+  ClientHeight = 473
+  ClientWidth = 645
+  LCLVersion = '3.2.0.0'
+  object Edit1: TEdit
+    Left = 169
+    Height = 23
+    Top = 151
+    Width = 80
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 296
+    Height = 23
+    Top = 152
+    Width = 80
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 169
+    Height = 15
+    Top = 128
+    Width = 78
+    Caption = 'Первое число'
+    OnClick = Label1Click
+  end
+  object Label2: TLabel
+    Left = 296
+    Height = 15
+    Top = 128
+    Width = 76
+    Caption = 'Второе число'
+  end
+  object Button1: TButton
+    Left = 301
+    Height = 25
+    Top = 192
+    Width = 75
+    Caption = 'Обменять'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 409
+    Height = 25
+    Top = 330
+    Width = 75
+    Caption = 'Выход'
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+end
