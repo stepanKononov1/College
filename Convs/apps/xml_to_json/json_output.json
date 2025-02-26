@@ -1,0 +1,237 @@
+{
+    "shop": {
+        "name": "Shatura",
+        "company": "Shatura corp.",
+        "url": "https://www.shatura.com",
+        "platform": "Custom",
+        "categories": {
+            "category": "Мягкая мебель"
+        }
+    },
+    "offers": [
+        {
+            "price": "64560",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Кресло Pero с подлокотниками FIRST",
+            "param": "1"
+        },
+        {
+            "price": "79000",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван Pero 2-х местный FIRST",
+            "param": "1"
+        },
+        {
+            "price": "98720",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван Pero угловой FIRST",
+            "param": "1"
+        },
+        {
+            "price": "113160",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван Pero угловой FIRST",
+            "param": "1"
+        },
+        {
+            "price": "86540",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Кресло Brioche Basic с широкими подлокотниками с механизмом",
+            "param": "1"
+        },
+        {
+            "price": "137450",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван Brioche FIRST 2-х местный с широкими подлокотниками",
+            "param": "1"
+        },
+        {
+            "price": "239050",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван Brioche Premier угловой пр\\лев с широкими подлокотниками",
+            "param": "1"
+        },
+        {
+            "price": "258270",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван Brioche Basic П-образный с широкими подлокотниками",
+            "param": "1"
+        },
+        {
+            "price": "99070",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван Rimini FIRST",
+            "param": "1"
+        },
+        {
+            "price": "123420",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван Rimini Basic",
+            "param": "1"
+        },
+        {
+            "price": "129810",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван Rimini Optimum",
+            "param": "1"
+        },
+        {
+            "price": "138060",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван Rimini Premier",
+            "param": "1"
+        },
+        {
+            "price": "69530",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Кресло Brownie Basic с широкими подлокотниками без механизма",
+            "param": "1"
+        },
+        {
+            "price": "179540",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван Brownie угловой правый FIRST",
+            "param": "1"
+        },
+        {
+            "price": "211740",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван Brownie угловой левый Optimum",
+            "param": "1"
+        },
+        {
+            "price": "227380",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван Brownie Memori угловой левый Premier",
+            "param": "1"
+        },
+        {
+            "price": "187080",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван Monaco модульный FIRST левый без дополнений",
+            "param": "1"
+        },
+        {
+            "price": "207160",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван Monaco FIRST левый",
+            "param": "1"
+        },
+        {
+            "price": "226280",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван Monaco Optimum левый",
+            "param": "1"
+        },
+        {
+            "price": "255080",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван Monaco Premier левый",
+            "param": "1"
+        },
+        {
+            "price": "111630",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Кресло Villaggio с подлокотниками Basic",
+            "param": "1"
+        },
+        {
+            "price": "140820",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван Villaggio 2-х местный Basic",
+            "param": "1"
+        },
+        {
+            "price": "173870",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван Villaggio угловой малый пр\\лев Basic",
+            "param": "1"
+        },
+        {
+            "price": "203060",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван Villaggio угловой большой пр\\лев Basic",
+            "param": "1"
+        },
+        {
+            "price": "48999",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван трансформер Сплит",
+            "param": "1"
+        },
+        {
+            "price": "80999",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван прямой Лига-041",
+            "param": "1"
+        },
+        {
+            "price": "80999",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван прямой Лига-041",
+            "param": "1"
+        },
+        {
+            "price": "80999",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван прямой Лига-041",
+            "param": "1"
+        },
+        {
+            "price": "80999",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван прямой Лига-041",
+            "param": "1"
+        },
+        {
+            "price": "78999",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван прямой Лига-041",
+            "param": "1"
+        },
+        {
+            "price": "78999",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван прямой Лига-041",
+            "param": "1"
+        },
+        {
+            "price": "31999",
+            "currencyId": "RUB",
+            "categoryId": "1",
+            "name": "Диван прямой Лагуна",
+            "param": "1"
+        }
+    ]
+}
