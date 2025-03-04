@@ -1,0 +1,295 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/home/ontologies/2025/2/untitled-ontology-2"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/home/ontologies/2025/2/untitled-ontology-2">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="#Актёр"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Жанр"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Режиссёр"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Фильм"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#имеетАктёра"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#имеетЖанр"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#имеетРежиссёра"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1000-7_ночь"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#17_мгновений_Степана"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Американ_Бой"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Джо_Байден"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Злой_Бизнесмен"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Комедия"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Мариарти"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Постмодернизм"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#С_новым_годом"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Степан"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ужасы"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Фильм_Мариарти"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Фильм_Степана"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Френк_Синатра"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Актёр"/>
+        <Class IRI="#Фильм"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Жанр"/>
+        <Class IRI="#Фильм"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Режиссёр"/>
+        <Class IRI="#Фильм"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Фильм"/>
+        <NamedIndividual IRI="#1000-7_ночь"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Фильм"/>
+        <NamedIndividual IRI="#17_мгновений_Степана"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Фильм"/>
+        <NamedIndividual IRI="#Американ_Бой"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Режиссёр"/>
+        <NamedIndividual IRI="#Джо_Байден"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Фильм"/>
+        <NamedIndividual IRI="#Злой_Бизнесмен"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Жанр"/>
+        <NamedIndividual IRI="#Комедия"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актёр"/>
+        <NamedIndividual IRI="#Мариарти"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Фильм"/>
+        <NamedIndividual IRI="#Постмодернизм"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Фильм"/>
+        <NamedIndividual IRI="#С_новым_годом"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актёр"/>
+        <NamedIndividual IRI="#Степан"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Жанр"/>
+        <NamedIndividual IRI="#Ужасы"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Фильм"/>
+        <NamedIndividual IRI="#Фильм_Мариарти"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Фильм"/>
+        <NamedIndividual IRI="#Фильм_Степана"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Режиссёр"/>
+        <NamedIndividual IRI="#Френк_Синатра"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#имеетАктёра"/>
+        <NamedIndividual IRI="#1000-7_ночь"/>
+        <NamedIndividual IRI="#Мариарти"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#имеетЖанр"/>
+        <NamedIndividual IRI="#1000-7_ночь"/>
+        <NamedIndividual IRI="#Комедия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#имеетРежиссёра"/>
+        <NamedIndividual IRI="#1000-7_ночь"/>
+        <NamedIndividual IRI="#Джо_Байден"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#имеетАктёра"/>
+        <NamedIndividual IRI="#17_мгновений_Степана"/>
+        <NamedIndividual IRI="#Степан"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#имеетЖанр"/>
+        <NamedIndividual IRI="#17_мгновений_Степана"/>
+        <NamedIndividual IRI="#Комедия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#имеетРежиссёра"/>
+        <NamedIndividual IRI="#17_мгновений_Степана"/>
+        <NamedIndividual IRI="#Джо_Байден"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#имеетАктёра"/>
+        <NamedIndividual IRI="#Американ_Бой"/>
+        <NamedIndividual IRI="#Степан"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#имеетЖанр"/>
+        <NamedIndividual IRI="#Американ_Бой"/>
+        <NamedIndividual IRI="#Ужасы"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#имеетРежиссёра"/>
+        <NamedIndividual IRI="#Американ_Бой"/>
+        <NamedIndividual IRI="#Френк_Синатра"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#имеетАктёра"/>
+        <NamedIndividual IRI="#Злой_Бизнесмен"/>
+        <NamedIndividual IRI="#Мариарти"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#имеетЖанр"/>
+        <NamedIndividual IRI="#Злой_Бизнесмен"/>
+        <NamedIndividual IRI="#Ужасы"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#имеетРежиссёра"/>
+        <NamedIndividual IRI="#Злой_Бизнесмен"/>
+        <NamedIndividual IRI="#Джо_Байден"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#имеетАктёра"/>
+        <NamedIndividual IRI="#Постмодернизм"/>
+        <NamedIndividual IRI="#Степан"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#имеетЖанр"/>
+        <NamedIndividual IRI="#Постмодернизм"/>
+        <NamedIndividual IRI="#Ужасы"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#имеетРежиссёра"/>
+        <NamedIndividual IRI="#Постмодернизм"/>
+        <NamedIndividual IRI="#Джо_Байден"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#имеетАктёра"/>
+        <NamedIndividual IRI="#С_новым_годом"/>
+        <NamedIndividual IRI="#Мариарти"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#имеетЖанр"/>
+        <NamedIndividual IRI="#С_новым_годом"/>
+        <NamedIndividual IRI="#Френк_Синатра"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#имеетЖанр"/>
+        <NamedIndividual IRI="#С_новым_годом"/>
+        <NamedIndividual IRI="#Комедия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#имеетАктёра"/>
+        <NamedIndividual IRI="#Фильм_Мариарти"/>
+        <NamedIndividual IRI="#Мариарти"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#имеетЖанр"/>
+        <NamedIndividual IRI="#Фильм_Мариарти"/>
+        <NamedIndividual IRI="#Ужасы"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#имеетРежиссёра"/>
+        <NamedIndividual IRI="#Фильм_Мариарти"/>
+        <NamedIndividual IRI="#Френк_Синатра"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#имеетАктёра"/>
+        <NamedIndividual IRI="#Фильм_Степана"/>
+        <NamedIndividual IRI="#Степан"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#имеетЖанр"/>
+        <NamedIndividual IRI="#Фильм_Степана"/>
+        <NamedIndividual IRI="#Комедия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#имеетРежиссёра"/>
+        <NamedIndividual IRI="#Фильм_Степана"/>
+        <NamedIndividual IRI="#Френк_Синатра"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#имеетАктёра"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#имеетЖанр"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#имеетРежиссёра"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
